@@ -84,6 +84,7 @@ while True:
         print("\033[1;32m")
         print("BINGO! You've won!\n")
         prettyPrint()
+        print(f"It took only {draw} draws!")
         print("\033[0m")
         break
     draw+=1
